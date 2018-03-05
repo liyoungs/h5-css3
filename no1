@@ -1,0 +1,7 @@
+display：inline|block；
+块元素（例如：div）：各占据一行，结尾换行，可包含快元素，行内元素，行内块元素，宽度为其父级的100%（即和父级元素的宽度一致，与内容无关），高度由内容撑开，可设置，height，margin，padding，line-height等
+行内元素（如：span）：在同一水平上排列，不换行，宽度，高度由内容撑开，可包含行内元素，行内块元素，不可设置height，width，margin-top，margin-bottom，可设置line-height撑起高度，
+行内元素和块元素相互转化
+  设置为块元素  ：display:block;
+  设置为行内元素：display：inline；
+行内块元素 ： display：inline-block;，在同一水平上排列，不换行，可包含快元素，行内元素，行内块元素，可设置width，height，margin，padding，line-height，
