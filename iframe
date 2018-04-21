@@ -1,0 +1,11 @@
+
+
+1.在页面中查找 iframe 页面元素：
+$("#iframe").contents().find("#id")
+
+2.在 iframe 中查找父页面元素：
+$("#id", parent.document)
+
+3.在 iframe 中调用父页面中定义的方法和变量：
+parent.method
+parent.value
